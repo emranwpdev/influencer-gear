@@ -40,6 +40,7 @@ nav{
 .cotainer-right ul{
     display: flex;
     gap: 20px;
+    text-align: right;
     align-items: center;
     list-style: none;
    
