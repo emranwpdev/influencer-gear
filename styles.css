@@ -23,7 +23,7 @@
 /* navbar styles */
 nav{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: center;
     margin: 0px 100px;
@@ -55,7 +55,7 @@ a{
 
 .banner-container{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -164,7 +164,7 @@ a{
 
 .future-section{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     text-align: center;
     align-items: center;
