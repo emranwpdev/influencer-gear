@@ -22,7 +22,8 @@
 
 /* navbar styles */
 nav{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
     justify-content: space-between;
     align-items: center;
     margin: 0px 100px;
@@ -52,8 +53,9 @@ a{
 }
 /* bannar styles */
 
-.bannar-container{
-    display: flex;
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -65,9 +67,8 @@ a{
     text-align: left;
 }
 .bannar-right{
-    background-image: url(./images/Circle\ design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("images/Circle\ design.png");
+    
 }
 .bannar-title{
     font-weight: 700;
@@ -86,7 +87,8 @@ a{
 /* company logos */
 
 .com-logo-img{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7, 7fr);
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -161,7 +163,8 @@ a{
 /* future section */
 
 .future-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     justify-content: space-between;
     text-align: center;
     align-items: center;

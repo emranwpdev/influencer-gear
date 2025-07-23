@@ -1,0 +1,21 @@
+/* responsive */
+
+@media screen and (max-width:576px){
+    .banner-container, nav{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .com-logo-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        align-items: center;
+    }
+    .all-card, .future-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer{
+      align-items: center;
+    }
+}
